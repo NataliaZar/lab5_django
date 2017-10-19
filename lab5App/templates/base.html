@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.css">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-static-top">
+<div class="container-fluid">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="/">Главная</a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li>
+                <a href="/prodact">Товары</a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        {% block content %}{% endblock %}
+    </div>
+</div>
+</nav>
+</body>
+</html>

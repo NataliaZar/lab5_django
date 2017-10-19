@@ -1,0 +1,40 @@
+# python compiled files
+*.py[co]
+# vim swap files
+*.sw[po]
+# gettext compiled messages
+*.mo
+# debian related
+*.debhelper
+*.debhelper.log
+*.substvars
+/debian/yandex-tools-maillists
+/debian/files
+# local
+local_settings.py
+tmp
+log
+#jetbrain ide
+.idea/
+#emacs
+/TAGS
+*_flymake.*
+
+# blackbox
+blackbox.py
+
+# virtual env
+ENV
+.env
+
+.tox/
+.coverage
+*.egg-info
+*.sqlite3
+
+*.local
+build/
+dist/
+
+.DS_Store
+
